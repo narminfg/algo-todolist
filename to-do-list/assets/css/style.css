@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.continer {
+    width: 334px;
+    border: solid black 2px;
+    border-radius: 18px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow{
+    background-color: rgb(219, 219, 33);
+    height: 31px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.Todo {
+    width: 196px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 16px;
+}
+
+.sort_img {
+    width: 23px;
+    height: 13px;
+}
+
+.input_text_area {
+    position: relative;
+}
+
+.add_text {
+    width: 230px;
+    height: 40px;
+    padding-right: 53px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.icon {
+    font-size: 17px;
+}
+
+.remove_text {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 18px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 21px;
+    position: relative;
+    width: 105px;
+    height: 40px;
+    padding-left: 27px;
+    margin-bottom: 5px;
+    background-color: rgb(104, 13, 190);
+    color: white;
+}
+
+.plus {
+    position: absolute;
+    right: 63px;
+    top: -2px;
+}
+
+.sorting {
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+.src {
+    bottom: 10px;
+    position: absolute;
+    display: inline;
+    z-index: 10;
+    right: 30px;
+    border: none;
+    background: transparent;
+}
+
+.ul {
+    width: 100%;
+}
+
+.add_li_to_ul {
+    width: 100%;
+}
+
+.reset_btn {
+    width: 108px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(9, 40, 53);
+    color: white;
+}
+
+.search {
+    position: relative;
+}
+
+.search_area {
+    width: 230px;
+    height: 38px;
+    padding-right: 54px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.search_text {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 18px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
